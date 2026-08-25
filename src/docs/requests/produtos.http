@@ -1,0 +1,19 @@
+### Listar todos os produtos
+
+GET http://localhost:8080/api/v1/produtos
+
+
+### Criar produto
+
+POST http://localhost:8080/api/v1/produtos
+Content-Type: application/json
+{
+    "nome": "Pizza de Mussarela",
+    "descricao": "Pizza de Mussarela com molho de tomate",
+    "valorVenda": 65.90,
+    "codStatus": true
+}
+
+### Pesquisar produto pelo ID
+
+GET http://localhost:8080/api/v1/produtos
